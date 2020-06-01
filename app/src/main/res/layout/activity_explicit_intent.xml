@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ExplicitIntentActivity">
+
+    <EditText
+        android:id="@+id/et_send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter data to send to next activity"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btn_send_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendDataButtonClicked"
+        android:text="SEND DATA" />
+
+
+    <Button
+        android:id="@+id/btn_send_rcv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendDataandReceiveButtonClicked"
+        android:text="Send data and receive changes" />
+
+
+    <TextView
+        android:id="@+id/tv_edited_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

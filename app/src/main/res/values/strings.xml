@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intents</string>
+
+    <string name="alert_url_empty">Please enter your URL</string>
+</resources>
